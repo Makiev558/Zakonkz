@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- ===== PRIMARY SEO META ===== -->
+  <title>Юридическая компания — Адвокат и Юрист | Бесплатная консультация</title>
+  <meta name="description" content="Профессиональная юридическая помощь по всем видам дел. Собственный адвокат, защита ваших прав в суде, семейные споры, уголовные дела, бизнес-право. Бесплатная консультация — звоните прямо сейчас!" />
+  <meta name="keywords" content="юридическая компания, адвокат, юрист, бесплатная консультация, юридическая помощь, защита прав, суд, семейные споры, уголовное дело, бизнес право" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.yurist-pro.ru/" />
+
+  <!-- ===== OPEN GRAPH (Facebook / VK) ===== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.yurist-pro.ru/" />
+  <meta property="og:title" content="Юридическая компания — Адвокат и Юрист | Бесплатная консультация" />
+  <meta property="og:description" content="Профессиональная юридическая помощь по всем видам дел. Собственный адвокат, защита ваших прав. Бесплатная консультация — звоните сейчас!" />
+  <meta property="og:image" content="https://www.yurist-pro.ru/og-image.jpg" />
+  <meta property="og:locale" content="ru_RU" />
+
+  <!-- ===== TWITTER CARD ===== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Юридическая компания — Адвокат и Юрист" />
+  <meta name="twitter:description" content="Профессиональная юридическая помощь. Бесплатная консультация!" />
+
+  <!-- ===== STRUCTURED DATA (Schema.org) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "ЮрПрофессионал",
+    "description": "Профессиональная юридическая компания с собственным адвокатом. Помощь по всем видам правовых вопросов.",
+    "url": "https://www.yurist-pro.ru",
+    "telephone": "+7-800-555-00-00",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Правовая, д. 1, офис 101",
+      "addressLocality": "Москва",
+      "postalCode": "100000",
+      "addressCountry": "RU"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 55.7558,
+      "longitude": 37.6173
+    },
+    "openingHours": "Mo-Sa 09:00-20:00",
+    "priceRange": "$$",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Юридические услуги",
+      "itemListElement": [
+        {"@type": "Offer","itemOffered": {"@type": "Service","name": "Уголовные дела"}},
+        {"@type": "Offer","itemOffered": {"@type": "Service","name": "Семейные споры"}},
+        {"@type": "Offer","itemOffered": {"@type": "Service","name": "Бизнес-право"}},
+        {"@type": "Offer","itemOffered": {"@type": "Service","name": "Жилищные вопросы"}},
+        {"@type": "Offer","itemOffered": {"@type": "Service","name": "Трудовые споры"}},
+        {"@type": "Offer","itemOffered": {"@type": "Service","name": "Административные дела"}}
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "347"
+    }
+  }
+  </script>
+
+  <!-- ===== FONTS ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+
+  <!-- ===== FAVICON ===== -->
+  <link rel="icon" type="image/png" href="logo.png" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== STICKY HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo" aria-label="ЮрПрофессионал — главная">
+        <img src="logo.png" alt="Логотип юридической компании ЮрПрофессионал" width="44" height="44" />
+        <span class="logo__text">ЮрПрофессионал</span>
+      </a>
+      <nav class="nav" aria-label="Основное меню">
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#advocate" class="nav__link">Наш адвокат</a>
+        <a href="#why" class="nav__link">Почему мы</a>
+        <a href="#cases" class="nav__link">Кейсы</a>
+        <a href="#faq" class="nav__link">Вопросы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+      <div class="header__cta">
+        <a href="tel:+78005550000" class="btn-call" id="header-call-btn" aria-label="Позвонить нам">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          +7 800 555-00-00
+        </a>
+        <a href="#consultation" class="btn-primary" id="header-consult-btn">Бесплатная консультация</a>
+      </div>
+      <button class="burger" id="burger-btn" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav>
+        <a href="#services" class="mobile-menu__link">Услуги</a>
+        <a href="#advocate" class="mobile-menu__link">Наш адвокат</a>
+        <a href="#why" class="mobile-menu__link">Почему мы</a>
+        <a href="#cases" class="mobile-menu__link">Кейсы</a>
+        <a href="#faq" class="mobile-menu__link">Вопросы</a>
+        <a href="#contacts" class="mobile-menu__link">Контакты</a>
+      </nav>
+      <a href="#consultation" class="btn-primary" id="mobile-consult-btn">Бесплатная консультация</a>
+      <a href="tel:+78005550000" class="btn-call-mobile" id="mobile-call-btn">+7 800 555-00-00</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero" aria-labelledby="hero-headline">
+    <div class="hero__bg-shapes">
+      <div class="shape shape--1"></div>
+      <div class="shape shape--2"></div>
+      <div class="shape shape--3"></div>
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <div class="hero__badge animate-fade-up">
+          <span class="badge-dot"></span>
+          Собственный лицензированный адвокат
+        </div>
+        <h1 class="hero__title animate-fade-up" id="hero-headline">
+          Защита ваших прав<br />
+          <span class="gradient-text">на профессиональном уровне</span>
+        </h1>
+        <p class="hero__subtitle animate-fade-up">
+          Решаем любые юридические вопросы — от консультации до победы в суде. 
+          Собственный адвокат, 15+ лет опыта, 97% выигранных дел.
+        </p>
+        <div class="hero__stats animate-fade-up">
+          <div class="stat-item">
+            <span class="stat-value" data-count="500">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Выигранных дел</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-value" data-count="15">0</span><span class="stat-suffix">лет</span>
+            <span class="stat-label">Опыт работы</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-value" data-count="97">0</span><span class="stat-suffix">%</span>
+            <span class="stat-label">Успешных дел</span>
+          </div>
+        </div>
+        <div class="hero__actions animate-fade-up">
+          <a href="#consultation" class="btn-primary btn-primary--lg pulse-btn" id="hero-consult-btn">
+            Получить бесплатную консультацию
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="tel:+78005550000" class="btn-outline" id="hero-call-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+            Позвонить сейчас
+          </a>
+        </div>
+        <div class="hero__trust animate-fade-up">
+          <div class="trust-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#22c55e"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            Бесплатная первичная консультация
+          </div>
+          <div class="trust-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#22c55e"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            Оплата только по результату
+          </div>
+          <div class="trust-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#22c55e"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            Работаем 7 дней в неделю
+          </div>
+        </div>
+      </div>
+      <!-- Hero Form Card -->
+      <div class="hero__form-card animate-slide-in" id="consultation">
+        <div class="form-card__header">
+          <div class="form-urgency">
+            <span class="urgency-dot"></span>
+            Онлайн сейчас — ответим за 15 минут
+          </div>
+          <h2 class="form-card__title">Бесплатная консультация</h2>
+          <p class="form-card__sub">Опишите ситуацию — юрист позвонит вам лично</p>
+        </div>
+        <form class="contact-form" id="main-form" novalidate>
+          <div class="form-group">
+            <label for="name" class="form-label">Ваше имя *</label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Иван Иванов" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="phone" class="form-label">Телефон *</label>
+            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+7 (___) ___-__-__" required autocomplete="tel" />
+          </div>
+          <div class="form-group">
+            <label for="situation" class="form-label">Ваша ситуация</label>
+            <select id="situation" name="situation" class="form-input form-select">
+              <option value="">— Выберите направление —</option>
+              <option value="criminal">Уголовное дело</option>
+              <option value="family">Семейные споры / развод</option>
+              <option value="property">Жилищные вопросы</option>
+              <option value="business">Бизнес и договоры</option>
+              <option value="labor">Трудовые споры</option>
+              <option value="admin">Административное дело</option>
+              <option value="inheritance">Наследство</option>
+              <option value="other">Другое</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-primary btn-primary--full pulse-btn" id="form-submit-btn">
+            Получить консультацию бесплатно
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+          <p class="form-privacy">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5L12 1z"/></svg>
+            Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности. Ваши данные защищены.
+          </p>
+        </form>
+        <div class="form-success" id="form-success" hidden>
+          <div class="success-icon">✓</div>
+          <h3>Заявка принята!</h3>
+          <p>Мы свяжемся с вами в течение 15 минут</p>
+        </div>
+      </div>
+    </div>
+    <!-- Floating phone button (mobile) -->
+    <a href="tel:+78005550000" class="float-call" id="float-call-btn" aria-label="Позвонить">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== TRUST BAR ===== -->
+  <section class="trust-bar" aria-label="Партнёры и достижения">
+    <div class="container trust-bar__inner">
+      <div class="trust-bar__item">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#d4af37"><path d="M12 1L3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5L12 1z"/></svg>
+        <span>Лицензированный адвокат</span>
+      </div>
+      <div class="trust-bar__item">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#d4af37"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+        <span>Член адвокатской палаты</span>
+      </div>
+      <div class="trust-bar__item">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#d4af37"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+        <span>Рейтинг 4.9/5 на GoogleMaps</span>
+      </div>
+      <div class="trust-bar__item">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#d4af37"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <span>Ответ за 15 минут</span>
+      </div>
+      <div class="trust-bar__item">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#d4af37"><path d="M3 10h11M9 21V3m0 0L5 7m4-4l4 4"/></svg>
+        <span>Работаем по всей России</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services" aria-labelledby="services-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Наши услуги</span>
+        <h2 class="section-title" id="services-title">Решаем любые юридические вопросы</h2>
+        <p class="section-sub">Комплексная юридическая помощь — от первичной консультации до защиты ваших интересов в суде</p>
+      </div>
+      <div class="services__grid">
+        <!-- Service Card 1 -->
+        <article class="service-card reveal" aria-labelledby="service-criminal">
+          <div class="service-card__icon service-card__icon--red">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 1L3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5L12 1z"/></svg>
+          </div>
+          <h3 id="service-criminal" class="service-card__title">Уголовные дела</h3>
+          <p class="service-card__text">Защита на стадии следствия и в суде. Работаем по любым статьям УК РФ. Снижение меры наказания, прекращение дел, оправдательные приговоры.</p>
+          <ul class="service-card__list">
+            <li>Защита на допросах и следственных действиях</li>
+            <li>Обжалование незаконных решений</li>
+            <li>Работа с мерой пресечения</li>
+          </ul>
+          <a href="#consultation" class="service-card__link" id="service-criminal-btn">Получить консультацию →</a>
+        </article>
+        <!-- Service Card 2 -->
+        <article class="service-card reveal" aria-labelledby="service-family">
+          <div class="service-card__icon service-card__icon--blue">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3 id="service-family" class="service-card__title">Семейные споры</h3>
+          <p class="service-card__text">Развод с разделом имущества, алименты, определение места жительства детей, оспаривание отцовства.</p>
+          <ul class="service-card__list">
+            <li>Развод и раздел имущества</li>
+            <li>Взыскание и оспаривание алиментов</li>
+            <li>Споры о детях</li>
+          </ul>
+          <a href="#consultation" class="service-card__link" id="service-family-btn">Получить консультацию →</a>
+        </article>
+        <!-- Service Card 3 -->
+        <article class="service-card reveal" aria-labelledby="service-property">
+          <div class="service-card__icon service-card__icon--green">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          </div>
+          <h3 id="service-property" class="service-card__title">Жилищные вопросы</h3>
+          <p class="service-card__text">Сделки с недвижимостью, споры с застройщиками, выселение, приватизация, защита от мошенников.</p>
+          <ul class="service-card__list">
+            <li>Проверка чистоты сделки</li>
+            <li>Споры с управляющими компаниями</li>
+            <li>Защита от незаконного выселения</li>
+          </ul>
+          <a href="#consultation" class="service-card__link" id="service-property-btn">Получить консультацию →</a>
+        </article>
+        <!-- Service Card 4 -->
+        <article class="service-card reveal" aria-labelledby="service-business">
+          <div class="service-card__icon service-card__icon--gold">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <h3 id="service-business" class="service-card__title">Бизнес и договоры</h3>
+          <p class="service-card__text">Сопровождение бизнеса, составление договоров, корпоративные споры, регистрация ООО и ИП, защита в арбитраже.</p>
+          <ul class="service-card__list">
+            <li>Составление и проверка договоров</li>
+            <li>Корпоративные споры</li>
+            <li>Взыскание долгов с контрагентов</li>
+          </ul>
+          <a href="#consultation" class="service-card__link" id="service-business-btn">Получить консультацию →</a>
+        </article>
+        <!-- Service Card 5 -->
+        <article class="service-card reveal" aria-labelledby="service-labor">
+          <div class="service-card__icon service-card__icon--purple">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </div>
+          <h3 id="service-labor" class="service-card__title">Трудовые споры</h3>
+          <p class="service-card__text">Незаконное увольнение, невыплата зарплаты, дискриминация на работе — защитим ваши трудовые права.</p>
+          <ul class="service-card__list">
+            <li>Восстановление на работе</li>
+            <li>Взыскание невыплаченных зарплат</li>
+            <li>Оспаривание дисциплинарных взысканий</li>
+          </ul>
+          <a href="#consultation" class="service-card__link" id="service-labor-btn">Получить консультацию →</a>
+        </article>
+        <!-- Service Card 6 -->
+        <article class="service-card reveal" aria-labelledby="service-admin">
+          <div class="service-card__icon service-card__icon--orange">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
+          </div>
+          <h3 id="service-admin" class="service-card__title">Административные дела</h3>
+          <p class="service-card__text">Лишение прав, штрафы ГИБДД, оспаривание протоколов, защита в административных органах.</p>
+          <ul class="service-card__list">
+            <li>Защита от лишения прав</li>
+            <li>Оспаривание штрафов и протоколов</li>
+            <li>Обжалование решений госорганов</li>
+          </ul>
+          <a href="#consultation" class="service-card__link" id="service-admin-btn">Получить консультацию →</a>
+        </article>
+      </div>
+      <div class="services__cta">
+        <p>Не нашли свою ситуацию?</p>
+        <a href="#consultation" class="btn-primary" id="services-all-btn">Задать вопрос юристу бесплатно</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ADVOCATE SECTION ===== -->
+  <section class="advocate" id="advocate" aria-labelledby="advocate-title">
+    <div class="container advocate__inner">
+      <div class="advocate__image-wrap reveal">
+        <div class="advocate__img-bg"></div>
+        <img src="advocate.png" alt="Адвокат юридической компании ЮрПрофессионал — профессиональный юрист" class="advocate__img" width="480" height="560" loading="lazy" />
+        <div class="advocate__badge">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#d4af37"><path d="M12 1L3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5L12 1z"/></svg>
+          Лицензированный адвокат РФ
+        </div>
+      </div>
+      <div class="advocate__content reveal">
+        <span class="section-tag">Наш адвокат</span>
+        <h2 class="section-title" id="advocate-title">Александр Петров — <br/>ваш личный адвокат</h2>
+        <p class="advocate__bio">
+          Более <strong>15 лет</strong> практики в российских судах всех инстанций. Член адвокатской палаты города Москвы. 
+          Специализируется на сложных уголовных и гражданских делах, где другие говорили «нет».
+        </p>
+        <div class="advocate__credentials">
+          <div class="credential-item">
+            <div class="credential-icon">🎓</div>
+            <div>
+              <strong>Образование</strong>
+              <span>Московский государственный юридический университет</span>
+            </div>
+          </div>
+          <div class="credential-item">
+            <div class="credential-icon">📜</div>
+            <div>
+              <strong>Статус</strong>
+              <span>Адвокат, член Адвокатской палаты г. Москвы, удостоверение №12345</span>
+            </div>
+          </div>
+          <div class="credential-item">
+            <div class="credential-icon">⚖️</div>
+            <div>
+              <strong>Специализация</strong>
+              <span>Уголовные, гражданские, административные дела, защита бизнеса</span>
+            </div>
+          </div>
+          <div class="credential-item">
+            <div class="credential-icon">🏆</div>
+            <div>
+              <strong>Достижения</strong>
+              <span>Лауреат премии «Лучший адвокат года» 2022, 2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="advocate__quote">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="#d4af37" opacity="0.5"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          <p>Каждое дело — это чья-то жизнь и судьба. Я беру только те дела, в которых вижу возможность реально помочь — и добиваюсь результата.</p>
+          <cite>Александр Петров, адвокат</cite>
+        </div>
+        <a href="#consultation" class="btn-primary" id="advocate-consult-btn">Записаться на приём к адвокату</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why-us" id="why" aria-labelledby="why-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Наши преимущества</span>
+        <h2 class="section-title" id="why-title">Почему выбирают нас</h2>
+        <p class="section-sub">Мы не просто юридическая контора — мы ваши союзники в борьбе за справедливость</p>
+      </div>
+      <div class="why-us__grid">
+        <div class="why-card reveal">
+          <div class="why-card__number">01</div>
+          <div class="why-card__icon">⚖️</div>
+          <h3 class="why-card__title">Собственный адвокат в штате</h3>
+          <p>Большинство компаний — это посредники. У нас в штате работает лицензированный адвокат, который лично возьмёт ваше дело.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__number">02</div>
+          <div class="why-card__icon">💰</div>
+          <h3 class="why-card__title">Оплата по результату</h3>
+          <p>Часть вознаграждения мы получаем только после победы в деле. Это означает, что наши интересы совпадают с вашими.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__number">03</div>
+          <div class="why-card__icon">🕐</div>
+          <h3 class="why-card__title">Доступность 24/7</h3>
+          <p>Задержание, арест, срочная ситуация — мы доступны в любое время суток. Экстренные выезды в следственный изолятор и дежурную часть.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__number">04</div>
+          <div class="why-card__icon">📊</div>
+          <h3 class="why-card__title">97% успешных дел</h3>
+          <p>Мы не берёмся за дела, в которых не уверены. Честная оценка ситуации на первой консультации — и реальный план действий.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__number">05</div>
+          <div class="why-card__icon">🛡️</div>
+          <h3 class="why-card__title">Полная конфиденциальность</h3>
+          <p>Адвокатская тайна защищена законом. Всё, что вы нам расскажете — останется между нами. Никаких утечек и разглашений.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__number">06</div>
+          <div class="why-card__icon">🌍</div>
+          <h3 class="why-card__title">Работаем по всей России</h3>
+          <p>Консультации онлайн, представительство в судах любого региона. Дело для нас не заканчивается на Москве.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CASES / RESULTS ===== -->
+  <section class="cases" id="cases" aria-labelledby="cases-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Результаты нашей работы</span>
+        <h2 class="section-title" id="cases-title">Реальные выигранные дела</h2>
+        <p class="section-sub">Каждый результат — живой пример того, как мы защищаем интересы наших клиентов</p>
+      </div>
+      <div class="cases__grid">
+        <div class="case-card reveal">
+          <div class="case-card__badge case-card__badge--win">Победа</div>
+          <div class="case-card__category">🔒 Уголовное дело</div>
+          <h3 class="case-card__title">Оправдательный приговор по ст. 158 УК РФ</h3>
+          <p class="case-card__text">Клиент обвинялся в краже. Нам удалось доказать алиби и добиться полного оправдания. Дело рассматривалось судом присяжных.</p>
+          <div class="case-card__result">
+            <span class="result-label">Результат:</span>
+            <span class="result-value">Оправдательный приговор</span>
+          </div>
+        </div>
+        <div class="case-card reveal">
+          <div class="case-card__badge case-card__badge--win">Победа</div>
+          <div class="case-card__category">🏠 Жилищный спор</div>
+          <h3 class="case-card__title">Взыскано 4,8 млн руб. с застройщика</h3>
+          <p class="case-card__text">Клиент купил квартиру с серьёзными строительными дефектами. Мы добились полного возврата средств + неустойки от застройщика.</p>
+          <div class="case-card__result">
+            <span class="result-label">Взыскано:</span>
+            <span class="result-value">4 800 000 ₽</span>
+          </div>
+        </div>
+        <div class="case-card reveal">
+          <div class="case-card__badge case-card__badge--win">Победа</div>
+          <div class="case-card__category">👨‍👩‍👦 Семейный спор</div>
+          <h3 class="case-card__title">Определение места жительства ребёнка</h3>
+          <p class="case-card__text">Отец хотел забрать ребёнка. Мы защитили интересы матери. Суд вынес решение об определении места жит. ребёнка с матерью.</p>
+          <div class="case-card__result">
+            <span class="result-label">Результат:</span>
+            <span class="result-value">Ребёнок остался с матерью</span>
+          </div>
+        </div>
+        <div class="case-card reveal">
+          <div class="case-card__badge case-card__badge--win">Победа</div>
+          <div class="case-card__category">🚗 Лишение прав</div>
+          <h3 class="case-card__title">Сохранили права при ДТП</h3>
+          <p class="case-card__text">Клиента хотели лишить прав на 2 года за нарушение правил на перекрёстке. Нашли процессуальные ошибки в протоколе и дело прекратили.</p>
+          <div class="case-card__result">
+            <span class="result-label">Результат:</span>
+            <span class="result-value">Права сохранены, штраф 1000 ₽</span>
+          </div>
+        </div>
+        <div class="case-card reveal">
+          <div class="case-card__badge case-card__badge--win">Победа</div>
+          <div class="case-card__category">💼 Бизнес</div>
+          <h3 class="case-card__title">Защита ИП от необоснованной налоговой проверки</h3>
+          <p class="case-card__text">ФНС насчитала 2,3 млн руб. недоимки. Мы оспорили все претензии в арбитражном суде. Клиент не заплатил ни копейки.</p>
+          <div class="case-card__result">
+            <span class="result-label">Сэкономлено:</span>
+            <span class="result-value">2 300 000 ₽</span>
+          </div>
+        </div>
+        <div class="case-card reveal">
+          <div class="case-card__badge case-card__badge--win">Победа</div>
+          <div class="case-card__category">👔 Трудовой спор</div>
+          <h3 class="case-card__title">Восстановление на работе после незак. увольнения</h3>
+          <p class="case-card__text">Работодатель уволил сотрудника без оснований. Мы добились восстановления в должности и взыскали зарплату за период вынужденного прогула.</p>
+          <div class="case-card__result">
+            <span class="result-label">Взыскано:</span>
+            <span class="result-value">380 000 ₽ + восстановление</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BAND ===== -->
+  <section class="cta-band" aria-label="Призыв к действию">
+    <div class="container cta-band__inner">
+      <div class="cta-band__content">
+        <h2 class="cta-band__title">Оказались в сложной ситуации?</h2>
+        <p class="cta-band__sub">Не ждите — время часто играет против вас. Получите бесплатную консультацию прямо сейчас.</p>
+      </div>
+      <div class="cta-band__actions">
+        <a href="#consultation" class="btn-primary btn-primary--lg" id="cta-band-btn">Бесплатная консультация</a>
+        <a href="tel:+78005550000" class="cta-band__phone" id="cta-band-call">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          +7 800 555-00-00
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Частые вопросы</span>
+        <h2 class="section-title" id="faq-title">Ответы на ваши вопросы</h2>
+        <p class="section-sub">Не нашли ответа — спросите нашего юриста бесплатно</p>
+      </div>
+      <div class="faq__list">
+        <div class="faq-item reveal">
+          <button class="faq-item__question" aria-expanded="false" id="faq-q1">
+            Сколько стоит первичная консультация?
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer" id="faq-a1" role="region" aria-labelledby="faq-q1" hidden>
+            <p>Первичная консультация — <strong>абсолютно бесплатно</strong>. Мы выслушаем вашу ситуацию, оценим шансы на успех и предложим план действий. Никаких скрытых платежей.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-item__question" aria-expanded="false" id="faq-q2">
+            Вы работаете с делами в других городах?
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden>
+            <p>Да, мы работаем по всей России. Консультации проводим онлайн (Zoom, WhatsApp, телефон). При необходимости выезжаем в другие города или работаем с местными представителями.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-item__question" aria-expanded="false" id="faq-q3">
+            Как быстро мне смогут помочь?
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden>
+            <p>Мы отвечаем на заявки в течение <strong>15 минут</strong> в рабочее время. При срочных ситуациях (задержание, арест) связываемся немедленно и можем выехать в любое время суток.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-item__question" aria-expanded="false" id="faq-q4">
+            Что значит «оплата по результату»?
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer" id="faq-a4" role="region" aria-labelledby="faq-q4" hidden>
+            <p>Часть нашего гонорара мы получаем только в случае успешного исхода дела. Это значит, что мы кровно заинтересованы в победе. Конкретные условия обсуждаем индивидуально на консультации.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-item__question" aria-expanded="false" id="faq-q5">
+            В чём разница между юристом и адвокатом?
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer" id="faq-a5" role="region" aria-labelledby="faq-q5" hidden>
+            <p>Адвокат — это юрист с особым статусом, полученным после сдачи квалификационного экзамена. Только адвокат имеет право защищать в уголовных делах на стадии следствия, имеет адвокатскую тайну, и его статус защищён законом. У нас в команде есть собственный лицензированный адвокат.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-item__question" aria-expanded="false" id="faq-q6">
+            Можно ли записаться на онлайн-консультацию?
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer" id="faq-a6" role="region" aria-labelledby="faq-q6" hidden>
+            <p>Да! Мы проводим консультации в формате видеозвонка (Zoom, Skype, WhatsApp), по телефону или в мессенджерах. Вы можете отправить документы нам на почту и мы их изучим до звонка.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / FOOTER FORM ===== -->
+  <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+    <div class="container contacts__inner">
+      <div class="contacts__info reveal">
+        <span class="section-tag">Контакты</span>
+        <h2 class="section-title" id="contacts-title">Свяжитесь с нами</h2>
+        <p>Мы готовы принять вашу ситуацию прямо сейчас. Выберите удобный способ связи:</p>
+        <div class="contact-methods">
+          <a href="tel:+78005550000" class="contact-method" id="contact-phone">
+            <div class="contact-method__icon">📞</div>
+            <div>
+              <strong>Телефон (бесплатно)</strong>
+              <span>+7 800 555-00-00</span>
+            </div>
+          </a>
+          <a href="https://wa.me/78005550000" class="contact-method" id="contact-whatsapp" target="_blank" rel="noopener noreferrer">
+            <div class="contact-method__icon">💬</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>Написать прямо сейчас</span>
+            </div>
+          </a>
+          <a href="https://t.me/yurist_pro" class="contact-method" id="contact-telegram" target="_blank" rel="noopener noreferrer">
+            <div class="contact-method__icon">✈️</div>
+            <div>
+              <strong>Telegram</strong>
+              <span>@yurist_pro</span>
+            </div>
+          </a>
+          <div class="contact-method">
+            <div class="contact-method__icon">📍</div>
+            <div>
+              <strong>Адрес офиса</strong>
+              <span>г. Москва, ул. Правовая, д. 1, офис 101</span>
+            </div>
+          </div>
+          <div class="contact-method">
+            <div class="contact-method__icon">🕐</div>
+            <div>
+              <strong>Режим работы</strong>
+              <span>Пн–Сб: 9:00–20:00 | Срочно 24/7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contacts__form reveal">
+        <div class="form-card" style="background: var(--surface-2);">
+          <h3 style="color:var(--text-primary);margin-bottom:8px;font-size:1.3rem;">Оставить заявку</h3>
+          <p style="color:var(--text-secondary);margin-bottom:24px;font-size:0.9rem;">Мы перезвоним в течение 15 минут</p>
+          <form class="contact-form" id="footer-form" novalidate>
+            <div class="form-group">
+              <label for="footer-name" class="form-label">Имя</label>
+              <input type="text" id="footer-name" name="name" class="form-input" placeholder="Ваше имя" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="footer-phone" class="form-label">Телефон</label>
+              <input type="tel" id="footer-phone" name="phone" class="form-input" placeholder="+7 (___) ___-__-__" required autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="footer-message" class="form-label">Сообщение (опционально)</label>
+              <textarea id="footer-message" name="message" class="form-input form-textarea" placeholder="Кратко опишите вашу ситуацию..." rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-primary--full" id="footer-form-submit">
+              Отправить заявку
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="logo">
+          <img src="logo.png" alt="ЮрПрофессионал" width="36" height="36" />
+          <span class="logo__text">ЮрПрофессионал</span>
+        </a>
+        <p class="footer__tagline">Профессиональная юридическая помощь. Ваши права — наша работа.</p>
+        <div class="footer__social">
+          <a href="https://t.me/yurist_pro" aria-label="Telegram" id="footer-tg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.247l-2.01 9.475c-.148.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L8.14 14.53l-2.95-.924c-.642-.2-.655-.642.134-.95l11.508-4.437c.535-.194 1.003.13.73.028z"/></svg>
+          </a>
+          <a href="https://wa.me/78005550000" aria-label="WhatsApp" id="footer-wa">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Услуги</h4>
+          <a href="#services">Уголовные дела</a>
+          <a href="#services">Семейные споры</a>
+          <a href="#services">Жилищные вопросы</a>
+          <a href="#services">Бизнес и договоры</a>
+          <a href="#services">Трудовые споры</a>
+          <a href="#services">Административные дела</a>
+        </div>
+        <div class="footer__col">
+          <h4>Компания</h4>
+          <a href="#advocate">Наш адвокат</a>
+          <a href="#why">Почему мы</a>
+          <a href="#cases">Выигранные дела</a>
+          <a href="#faq">Вопросы и ответы</a>
+          <a href="#contacts">Контакты</a>
+        </div>
+        <div class="footer__col">
+          <h4>Контакты</h4>
+          <a href="tel:+78005550000">+7 800 555-00-00</a>
+          <a href="mailto:info@yurist-pro.ru">info@yurist-pro.ru</a>
+          <span>г. Москва, ул. Правовая, д. 1</span>
+          <span>Пн–Сб: 9:00–20:00</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2025 ЮрПрофессионал. Все права защищены.</p>
+        <div class="footer__legal-links">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Соглашение об использовании</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
